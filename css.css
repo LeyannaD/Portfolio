@@ -1,0 +1,119 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    font-family: Monospace, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 1em;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em 0;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    width: 315px;
+    height: 350px;
+    margin-right: 2em;
+  }
+  
+  .intro-text h1 {
+    margin: 0;
+  }
+  
+  .about, .projects {
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .projects ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .projects ul li {
+    margin: 2em 0;
+  }
+  
+   p {
+    font-size: 15px;
+  } 
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+  }
+  
+  footer .icon {
+    display: flex;
+    align-items: center;
+    margin: 0 1em;
+  }
+  
+  footer .icon img {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5em;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
